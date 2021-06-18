@@ -72,7 +72,7 @@ const data = {
       label: "Darío",
       backgroundColor: "#5F2D407F",
       borderColor: "#5F2D40",
-      data: [0, 3, 4, 5, 8, 9, 11, 13, 13, 14, 15, 17, 19, 20, 23, 25, 25, 25],
+      data: [0, 3, 4, 5, 8, 9, 11, 13, 13, 14, 15, 17, 19, 20, 23, 25, 25, 25, 25],
     },
     {
       label: "Pablo",
