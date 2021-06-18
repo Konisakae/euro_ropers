@@ -2,7 +2,7 @@ var labels = [];
 
 var ptos = 0;
 
-while (ptos <= 17) {
+while (ptos <= 18) {
   labels.push(ptos);
   ptos++;
 }
