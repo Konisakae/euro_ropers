@@ -150,7 +150,7 @@ const data = {
         grid: {
           drawBorder: true,
           color: function (context) {
-            if (context.tick.value % 12 == 0) {
+            if (context.tick.value % 12 == 0 && context.tick.value < 36) {
               return "rgba(255,0,0,1)";
             }
             return "#D3D3D3";
