@@ -154,14 +154,16 @@ const data = {
               return "rgba(255,0,0,1)";
             }
               if (context.tick.value == 36) {
-              return "rgba(0,0,255,1)";
+              return "rgba(0,95,106,1)";
             }
             return "#D3D3D3";
           },
             lineWidth: function (context) {
-            
+             if (context.tick.value % 12 == 0 && context.tick.value < 36) {
+              return "2";
+            }
               if (context.tick.value == 36) {
-              return "5";
+              return "4";
             }
             return "1";
           },
